@@ -6,6 +6,7 @@ The rest is basically a 5v to 3.3V LDO and ESP07 required components.
 It can be programmed with esphome using a ftdi cable or similar.
 Installation guide and software: [https://github.com/psvanstrom/esphome-p1reader](https://github.com/psvanstrom/esphome-p1reader).
 
+A box can be 3D Printed. [Download .stl files](https://www.thingiverse.com/thing:5337456)
 
 ![top side](images/p1-port-thingie-top.jpg)
 ![bottom side](images/p1-port-thingie-bottom.jpg)
