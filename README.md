@@ -3,8 +3,12 @@ This is a small board to bridge the P1 port of the Swedish electricity meters wi
 The level conversion part of the schematics is based on the examples on the [software](https://github.com/psvanstrom/esphome-p1reader) github page.
 The rest is basically a 5v to 3.3V LDO and ESP07 required components.
 
-It can be programmed with esphome using a ftdi cable or similar.
+It can be programmed with esphome using a 3.3V ftdi cable or similar. External power via rj12 is probably needed as the ftdi cables usually do not have enough power on 3.3V
 Installation guide and software: [https://github.com/psvanstrom/esphome-p1reader](https://github.com/psvanstrom/esphome-p1reader).
+
+Edit the p1reader.yaml and set board: esp01_1m
+
+There is sometimes interference on the RX line when programming so it's preferable to program before adding the transistor.
 
 A box can be 3D Printed. [Download .stl files](https://www.thingiverse.com/thing:5337456)
 
